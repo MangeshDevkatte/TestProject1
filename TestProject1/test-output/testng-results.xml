@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="33998" started-at="2021-12-04T05:42:51Z" finished-at="2021-12-04T05:43:25Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="33998" started-at="2021-12-04T05:42:51Z" finished-at="2021-12-04T05:43:25Z">
+      <class name="testPackage.TestClass3">
+        <test-method status="PASS" signature="m()[pri:0, instance:testPackage.TestClass3@2ddc8ecb]" name="m" duration-ms="13" started-at="2021-12-04T05:42:51Z" finished-at="2021-12-04T05:42:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m -->
+        <test-method status="PASS" signature="m1()[pri:0, instance:testPackage.TestClass3@2ddc8ecb]" name="m1" duration-ms="33934" started-at="2021-12-04T05:42:51Z" finished-at="2021-12-04T05:43:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+      </class> <!-- testPackage.TestClass3 -->
+      <class name="testPackage.TestClass2">
+        <test-method status="PASS" signature="m()[pri:0, instance:testPackage.TestClass2@229d10bd]" name="m" duration-ms="13" started-at="2021-12-04T05:42:51Z" finished-at="2021-12-04T05:42:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m -->
+      </class> <!-- testPackage.TestClass2 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

@@ -1,3 +1,4 @@
+package testPackage;
 
 import java.io.File;
 
@@ -8,11 +9,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class TestClass1 {
+public class TestClass2 {
 	
 	@Test
 	public void m() {
-		System.out.println("Hello");
+		System.out.println("Hello2");
 	}
 	@Test
 	public void m1() throws Exception {
@@ -22,7 +23,7 @@ public class TestClass1 {
 		driver.get("https://www.flipkart.com/");
 		
 		File sc= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(sc, new File("G:\\javaWorkspace\\Screenshot\\2.jpg"));
+		FileUtils.copyFile(sc, new File("G:\\javaWorkspace\\Screenshot\\3.jpg"));
 		
 		driver.close();
 	}
