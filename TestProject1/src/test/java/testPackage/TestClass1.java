@@ -15,7 +15,7 @@ public class TestClass1 {
 	public void m() {
 		System.out.println("Hello1");
 	}
-	@Test
+	@Test(invocationCount = 5, priority = 1, )
 	public void m1() throws Exception {
 		System.setProperty("webdriver.chrome.driver", "G:\\javaWorkspace\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
